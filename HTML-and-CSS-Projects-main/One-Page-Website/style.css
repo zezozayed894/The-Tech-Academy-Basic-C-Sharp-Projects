@@ -1,0 +1,90 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #0078d4;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem 1.5rem;
+  position: relative;
+}
+
+/* Flexbox layout for title and name */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Name placement (top right) */
+.student-name {
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Subtitle under header */
+header p {
+  margin-top: 10px;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #0078d4;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  color: #005fa3;
+  margin-bottom: 0.25rem;
+}
+
+/* Example box */
+.example {
+  background-color: #eef6ff;
+  border-left: 4px solid #0078d4;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
